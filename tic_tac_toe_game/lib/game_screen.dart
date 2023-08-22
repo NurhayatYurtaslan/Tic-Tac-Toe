@@ -79,9 +79,9 @@ class _GameScreenState extends State<GameScreen> {
           animType: AnimType.rightSlide,
           btnOkText: "Play again",
           title: _winner == "X"
-              ? widget.player1 + "Won!"
+              ? widget.player1 + " Won!"
               : _winner == "O"
-                  ? widget.player2 + "Won!"
+                  ? widget.player2 + " Won!"
                   : "It's Tie",
           btnOkOnPress: () {
             _resetGame();
